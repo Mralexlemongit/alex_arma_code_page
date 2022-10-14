@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Luis Alejandro Armadillo Martinez">
-    <title> {% block title %} Example {% endblock %} </title>
+    <title> {% block title %} {% trans 'Example' %} {% endblock %} </title>
 
 
     {% load bootstrap5 %}

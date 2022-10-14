@@ -1,3 +1,5 @@
+{% load i18n %}
+
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <a class="navbar-brand" href="/">Alex-Arma-Code-Page</a>
     <button 
@@ -15,22 +17,22 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="/">Curriculum</a>
+                <a class="nav-link" href="/">{% trans 'Resume' %}</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="{% url 'blog' %}">Blog</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="{% url 'repos' %}">Repositorios</a>
+                <a class="nav-link" href="{% url 'repos' %}">{% trans 'Repositories' %}</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="{% url 'projects' %}">Projectos</a>
+                <a class="nav-link" href="{% url 'projects' %}">{% trans 'Projects' %}</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="{% url 'page_info' %}">Esta Pagina</a>
+                <a class="nav-link" href="{% url 'page_info' %}">{% trans 'Page Info' %}</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="{% url 'contact' %}">Contacto</a>
+                <a class="nav-link" href="{% url 'contact' %}">{% trans 'Contact' %}</a>
             </li>
         </ul>
     </div>
