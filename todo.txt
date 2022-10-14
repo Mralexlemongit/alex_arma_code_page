@@ -1,0 +1,36 @@
+[   ]   Traducción lenguajes
+
+[   ]   Curriculum
+    [   ] Pensar modelos
+[   ]   Info de la Pagina
+    [   ]   Pagina hecha con
+        [   ]   Django + Bootstrap + Postgres
+        [   ]   Estructura
+
+[   ]   Crear mi curriculum (PDF) bajo el paradigma de Mvc
+    - Mis herramientas:
+        Lenguajes:
+            - python - 2019
+            - php - 2020
+        frameworks:
+            - Django -
+            - Laravel -
+        front lenguajes:
+            - css
+            - javascript
+            - html
+        front frameworks
+            - bootstrap
+            - tailwinds
+        Base de datos relacional
+            - Postgres
+            - MySQL
+            - SQL server
+            - SQLite
+        Base de datos no relacional
+            - Redis
+            - Elastic
+
+[   ]   Navbar Funcional
+    [wait]  Diseñar Logo?
+    [   ]   Elegir otro Diseño de Navbar
