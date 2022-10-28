@@ -1,6 +1,12 @@
+[   ]   Integrar por partes la pagina de Kelly (About + Resume)
+    [   ]   Integrar y que sea funcional
+    [   ]   Curriculum En ingles
+        [   ]   En español
+    [   ]   Dividirlo en 2 secciones, que no este todo de corrido
 
 [   ]   Curriculum
-    [   ] Pensar modelos
+    [   ]   Estructurar y documentar
+
 [   ]   Info de la Pagina
     [   ]   Pagina hecha con
         [   ]   Django + Bootstrap + Postgres
